@@ -1,6 +1,6 @@
 
 public class Rekening {
-    private float money;
+    private float money = 0f;
 
     public float retrieveMoney() {
         // for retrieving money
@@ -9,5 +9,6 @@ public class Rekening {
 
     public void setMoney(float amount) {
         // for setting money value
+        money = amount;
     }
 }

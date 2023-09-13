@@ -10,10 +10,11 @@ class Rekening {
     public:
         float retrieveMoney() {
             // for retrieving money
-            return money;
+            return this->money;
         }
 
         void setMoney(float amount) {
             // for setting money value
+            this->money = amount;
         }
 };

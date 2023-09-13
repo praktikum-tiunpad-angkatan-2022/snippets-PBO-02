@@ -1,12 +1,15 @@
 
 class Manusia:
     def __init__(self, nama = "", umur = 0):
-        self.name = name
-        self.age = age
+        self.__nama = nama
+        self.__umur = umur
 
     def setUmur(self, umur):
-        self.umur = umur
+        self.__umur = umur
 
-    def setUmur(self, umur):
-        self.umur = int(umur)
+    def getUmur(self, umur):
+        return self.__umur
+    
+    def toString(self) :
+        return self.__nama + ", " + str(self.__umur) + " tahun"
             

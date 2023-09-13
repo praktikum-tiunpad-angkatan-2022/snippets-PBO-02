@@ -18,12 +18,16 @@ public class Manusia {
         this.nama = nama;
     }
 
-    
     public void setUmur(int umur) {
         this.umur = umur;
     }
-    
+
     public void setUmur(String umur) {
         this.umur = Integer.parseInt(umur);
+    }
+
+    @Override
+    public String toString() {
+        return this.nama + ", " + this.umur + " tahun";
     }
 }

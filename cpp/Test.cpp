@@ -7,7 +7,7 @@ int main() {
     File1* tes[5];
 
     for (int i = 0; i < 5; i++) {
-        tes[i] = new File1("Ini tes ke-" + std::to_string(i));
+        tes[i] = File1("Ini tes ke-" + std::to_string(i));
     }
 
     for (int i = 0; i < 5; i++) {

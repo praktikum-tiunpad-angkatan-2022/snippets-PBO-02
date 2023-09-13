@@ -32,6 +32,8 @@ class Manusia{
             this->umur = stoi(umur);
         }
 
-
+        std::string toString() {
+            return this->nama + ", " + std::to_string(this-> umur) + " tahun";
+        }
 
 };
